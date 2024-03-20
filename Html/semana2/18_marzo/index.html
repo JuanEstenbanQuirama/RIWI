@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clase 18 de Marzo</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <form action="#" method="get" enctype="multipart/form-data">
+        <fieldset>
+          <legend>The formulario</legend>
+          <label for="name-pet">Pet Name: </label>
+          <input
+            type="text"
+            name="name-pet"
+            id="name-pet"
+            placeholder="enter name pet"
+          />
+          <br />
+          <label for="age-pet">Age pet: </label>
+          <input
+            type="date"
+            name="age-pet"
+            id="age-pet"
+            placeholder="enter age pet"
+          />
+          <br />
+          <label for="peso-pet">Peso pet: </label>
+          <input
+            type="number"
+            name="peso-pet"
+            id="peso-pet"
+            placeholder="enter peso pet"
+          />
+        </fieldset>
+        <fieldset>
+            <legend>Datos user</legend>
+            <div>
+                <label for="name">Name: </label>
+                <input type="text" id="name" placeholder="Please enter your name">
+            </div>
+            <div>
+                <label for="Last-name">Last Name: </label>
+                <input type="text" id="Last-name" placeholder="Please enter your last name">
+            </div>
+            <div>
+                <label for="id-type">Id Type: </label>
+                <select name="id-typ" id="id-type">
+                    <option disabled selected>Select option</option>
+                    <option value="cc">cedula</option>
+                    <option value="ti">Tarjeta identidad</option>
+                    <option value="pa">Pasaporte</option>
+                </select>
+            </div>
+            <!-- mirar como se hace un datalit -->
+            <div>
+                <label for="document">Last Name: </label>
+                <input type="text" id="document" placeholder="Please enter your document">
+            </div>
+                <label for="tel">Tel: </label>
+                <input type="number" id="tel" value="+57">
+            </div>
+            <br>
+            </div>
+                <label for="correo">Correo: </label>
+                <input type="email" id="correo" placeholder="Please enter your emiL">
+            </div>
+        </fieldset>
+        <button type="submit">Send data</button>
+      </form>
+    </main>
+  </body>
+</html>
