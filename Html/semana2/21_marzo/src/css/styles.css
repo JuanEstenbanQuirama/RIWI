@@ -1,0 +1,111 @@
+body {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    border-radius: 12px;
+    border-bottom: 10px solid gold;
+}
+
+#parrafo-prueba {
+    border: 10px solid tomato;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+#parrafo-prueba-2 {
+    border: 1px  dotted tomato;
+    border-radius: 12px;
+    padding: 12px; 
+}
+
+p {
+    padding: 12px;
+}
+
+p.dotted {
+    border-style: dotted;
+}
+
+p.dashed {
+    border-style: dashed;
+}
+
+p.solid {
+    border-style: solid;
+}
+
+p.double {
+    border-style: double;
+}
+
+p.groove {
+    border-style: groove;
+}
+
+p.ridge {
+    border-style: ridge;
+}
+
+p.inset {
+    border-style: inset;
+}
+
+p.outset {
+    border-style: outset;
+}
+
+p.none {
+    border-style: none;
+}
+
+p.hidden {
+    border-style: hidden;
+}
+
+p.mix {
+    border-style: dotted dashed solid double;
+}
+
+/* La propiedad border-width con tamaño especifico*/
+p.uno {
+    border-style: solid;
+    border-width: 5px 20px;
+    /* 5px top and bottom, 20px on the sides */
+}
+
+p.dos {
+    border-style: solid;
+    border-width: 20px 5px;
+    /* 20px top and bottom, 5px on the sides */
+}
+
+p.tres {
+    border-style: solid;
+    border-width: 25px 10px 4px 35px;
+    /* 25px top, 10px right, 4px bottom and 35px left */
+}
+
+.img-1 {
+    border: 10px dotted red;
+}
+
+.img-2 {
+    border: 15px solid blue;
+}
+.img-3 {
+    border: 20px double chartreuse;
+}
+.img-4 {
+    border: 12px ridge peru;
+}
+.img-5 {
+    border: 5px groove green;
+}
+
+/* 
+justify content: para horizontal
+alienar verticalmente : alig item center
+*/

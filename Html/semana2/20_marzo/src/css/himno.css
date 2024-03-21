@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    background: rgb(55, 65, 56);
+}
+
+section {
+    max-width: 700px;
+    border: 1px solid tomato;
+    margin: 3rem auto;
+}
+
+.container p:nth-child(1), .container p:nth-child(4), .container p:nth-child(7) {
+    color: yellow;
+
+}
+.container p:nth-child(2), .container p:nth-child(5), .container p:nth-child(8) {
+    color: blue;
+
+}
+.container p:nth-child(3), .container p:nth-child(6), .container p:nth-child(9) {
+    color: red;
+
+}
+
+h1{
+    text-align: center;
+    color: antiquewhite;
+}
+p{
+    line-height: 1.1em;
+    padding: 10px;
+    font-size: 20px;
+}
