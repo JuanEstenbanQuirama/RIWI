@@ -192,4 +192,6 @@ let numbersPar = numbers.map(number => { // me retorna una cadena del mismo tama
     } 
 })
 
+
+
 console.log(numbersPar)
