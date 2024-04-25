@@ -42,15 +42,20 @@ console.group("for each")
 // for in para los claves, indice
 // for each para los dos 
 let listaCoders = ["Maria", "Pablo", "Lucas"]
+let listacoderOb = {
+    estudiante1:"maria",
+    estudiante2:"pablo",
+    estudiante3:"lucas"
+}
 
 listaCoders.forEach(function(coder, i) {
     console.log(`El coder ${coder} esta en la posicion ${i}`);
 })
-// for of para los valores
-for (const key in listaCoders) {
+// for in para los claves, indece
+for (const key in listacoderOb) {
     console.log(key)
 }
-// for in para ass claves, indice
+// for of para los valores 
 for (const iterator of listaCoders) {
     console.log(iterator)
 }
