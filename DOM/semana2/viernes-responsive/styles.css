@@ -1,0 +1,84 @@
+*  {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* .container {
+    /* Media Query Range Syntax 
+    background: var(--color, grey);
+    min-height: 200px;
+    padding: 1rem 2rem;
+  }
+  
+  @media (width <= 550px) {
+    .container {
+      --color: indigo;
+    }
+  }
+  
+  @media (width >= 750px) {
+    .container {
+      --color: green;
+    }
+  } 
+  @media (400px <= width <= 800px) {
+    se aplica sólo si el navegador tiene un ancho de pantalla entre 400px y 800px:
+
+*/
+
+  /* .container {
+    background: var(--color, grey);
+    min-height: 200px;
+    padding: 1rem 2rem;
+  
+    @media (width <= 550px) { --color: indigo; }
+    @media (width >= 750px) { --color: green; }
+  } */
+
+/* 
+
+
+    background: var(--color, grey);
+    min-height: 200px;
+    padding: 1rem 2rem;
+
+*/
+
+/* .container {
+    Media Queries (legacy syntax)
+    background: var(--color, grey);
+    min-height: 200px;
+    padding: 1rem 2rem;
+  }
+    
+  @media (min-width: 550px) and (max-width: 800px) {
+    .container {
+        --color: red;
+    }
+  }
+  
+  @media (min-width: 800px) {
+    .container {
+        --color: green;
+    }
+  }
+ */
+
+
+/*
+.container {
+    display: grid;
+    gap: 1rem;
+    /* grid-auto-rows: 22rem; 
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    /* aunto fill hace la magia 
+} */
+
+/* .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.5rem;
+
+    // gap hace la magia
+} */
