@@ -4,6 +4,8 @@
     padding: 0;
 }
 
+/*  Las media queries son una característica de CSS que permite personalizar la apariencia de un sitio web según el dispositivo desde el cual se está accediendo2 */
+
 /* .container {
     /* Media Query Range Syntax 
     background: var(--color, grey);
